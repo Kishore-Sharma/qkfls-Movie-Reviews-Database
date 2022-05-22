@@ -15,6 +15,7 @@ let NLU_APIKEY, NLU_URL, CLOUDANT_URL, CLOUDANT_API;
 let moviesDb, naturalLanguageUnderstanding, cloudant;
 const dbName = 'movies-reviews';
 
+
 if (dotenv.error) {
   //Local file not found. Get creds from cloud services. 
   console.log('dotenv not present, will load vcap on IBM Cloud!');
